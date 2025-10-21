@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: apparaorayidi606/product-service:latest
+        image: apparaorayidi606/product-service:v1
         ports:
         - containerPort: 5000
         readinessProbe:
