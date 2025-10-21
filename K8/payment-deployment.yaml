@@ -13,6 +13,8 @@ spec:
       labels:
         app: payment-service
     spec:
+      imagePullSecrets:
+      - name: dockerhub-secret
       containers:
       - name: payment-service
         image: apparaorayidi606/payment-service:latest

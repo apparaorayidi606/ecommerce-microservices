@@ -13,6 +13,8 @@ spec:
       labels:
         app: order-service
     spec:
+      imagePullSecrets:
+      - name: dockerhub-secret
       containers:
       - name: order-service
         image: apparaorayidi606/order-service:latest

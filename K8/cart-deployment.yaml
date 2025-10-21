@@ -13,6 +13,8 @@ spec:
       labels:
         app: cart-service
     spec:
+      imagePullSecrets:
+      - name: dockerhub-secret
       containers:
       - name: cart-service
         image: apparaorayidi606/cart-service:latest
