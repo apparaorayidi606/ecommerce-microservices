@@ -17,7 +17,7 @@ spec:
       - name: dockerhub-secret
       containers:
       - name: product-service
-        image: apparaorayidi606/product-service:v1
+        image: apparaorayidi606/product-service:latest
         ports:
         - containerPort: 5000
         readinessProbe:
