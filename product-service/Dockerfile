@@ -2,5 +2,5 @@ FROM python:3.10-slim
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
-EXPOSE 5001
+EXPOSE 5008
 CMD ["python", "app.py"]
